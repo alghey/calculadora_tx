@@ -1,0 +1,84 @@
+body{
+    font-family: Poppins;
+}
+.titulo{
+
+    margin:auto;
+    opacity: 80%;
+    text-align: center;
+    font-family: Poppins;
+    width: auto;
+    height:auto;
+}
+
+
+button{
+
+border: none;
+background-color:#e42c64;
+color: #FFF;
+padding: 15px 20px;
+border-radius: all;
+font-family: Poppins;
+}
+
+.button-return{
+
+border: none;
+color: #252A34;
+background-color: ;
+padding: 15px 20px;
+border-radius: all;
+font-family: Poppins;
+}
+
+
+
+h1{
+    color:#614ad3;
+ }
+
+
+h4{
+    color:#f9bcdd;
+    font-family: Poppins;
+}
+
+h3{
+    font-family: Poppins;
+}
+
+h5{
+    color: #FFF;
+}
+
+.Contenedor{
+margin:auto;
+text-align: center;
+height:auto;
+width: 60%;
+background-color:#252A34 ;
+padding: 50px;
+}
+
+
+.pagina_calculo{
+ margin-top: 4%;
+
+ margin-bottom: 4%;
+}
+
+.custom-label{
+  font-size: 16px;
+  color:#e42c64;
+}
+
+.custom-sub{
+  font-size: 20px;
+}
+
+.input_dielectrico{
+    overflow: hidden;
+    display: none;
+
+}

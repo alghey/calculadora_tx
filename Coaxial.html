@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <link rel="stylesheet" href="css/coaxial.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/diseño.css">
+
+</header>
+
+<body class="Inicio">
+
+    <div class="container overflow-hidden">
+      <div class="row gy-10">
+        <div class="col-12">
+          <br><br><center><b><h1>Calculadora de líneas de transmisión</h1></b></center>
+        </div>
+      </div>
+      <div class="row gy-10">
+        <div class="col-12">
+          <br><br><center><b><h3>Impedancias de cable coaxial</h3></b></center>
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col-12">
+          <div class="col-6">
+            <div class="p-3">
+              <h3 class="custom-label">
+                Material dieléctrico
+              </h3>
+              <select class="form-select" id="diele" name="Dielectrico" onchange="cambiar_estilo()">
+                <option  value="1" selected="selected">FR4</option>
+                <option  value="2">Fibra de Vidrio (D Glass) </option>
+                <option  value="3">Fibra de Vidrio (E glass)</option>
+                <option  value="4">PVC</option>
+                <option  value="5">Duroid</option>
+                <option  value="6">Mylar</option>
+                <option  value="7">Poliestireno</option>
+                <option  value="8">Polietileno</option>
+                <option  value="9">Porcelana</option>
+                <option  value="10">Teflon</option>
+                <option  value="11">Caucho</option>
+                <option  value="12">Otro</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 otra_seleccion">
+              <input type="text" class="form-control input_dielectrico" id="dielectrico_in" placeholder="Ingresa la permitividad magnética"></input>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row gy-5">
+        <div class="col-12">
+          <div class="p-3">
+            <div class="col-12">
+              <h3 class="custom-label">
+                Ingresa los siguientes valores
+              </h3>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <input type="text" class="form-control" id="de_input" placeholder="Diámetro exterior">
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" id="di_input" placeholder="Diámetro interior">
+              </div>
+              <div class="col-4">
+                <select class="form-select" id="med2" name="medicion_dimnensiones2" onchange="medida()">
+                     <option value="1" selected="selected">mm</option>
+                     <option value="2">cm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="row gy-5">
+      <div class="col-12">
+        <div class="p-3">
+          <div class="col-12">
+            <h3>
+              Resultados Obtenidos
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <h3 class="custom-label">Impedancia Característica</h3>
+              <input type="text" class="form-control" id="coax_res" readonly=readonly>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="row gy-5">
+          <div class="col-12 ">
+            <center>
+            <button type="button" class="btn btn-dark btn-md" id="impedancia_calculo2">
+              Calcular impedancia
+            </button></center>
+          </div>
+          <div class="col-12 ">
+            <center><button type="button" class="btn btn-light btn-md" onclick="menu()">
+              Regresar
+            </button></center>
+          </div>
+    </div>
+  </div>
+
+
+<script src="js/cambio.js"></script>
+<script src="js/Dielectrico.js"></script>
+<script src="js/coaxial_impedancia.js"></script>
+  </body>
+
+</html>

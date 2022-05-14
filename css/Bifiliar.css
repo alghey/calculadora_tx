@@ -1,0 +1,300 @@
+.titulo,.titulo2{
+    
+    margin:auto;
+    background-color:lightsteelblue;
+    opacity: 80%;
+    text-align: center;
+    border: 1px solid;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    height:auto;
+}
+
+
+
+button{
+
+border: none;
+background-color:lightgreen;
+padding: 15px 20px;
+font-weight:bold; 
+}
+
+
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+
+
+select{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    overflow: hidden;
+    background-color: #fff;   
+}
+
+
+.diele3{
+width:100%;
+}
+
+
+optgroup{
+cursor:pointer;   
+width: 30%;
+    position:relative;
+    font-size: 15px;
+    color:black;
+    border:1px solid #ccc;
+}
+
+
+.select select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
+
+
+
+h2{
+    color:purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    }
+
+h4{
+color:orange;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+h1{
+   color:darkviolet;
+   font-weight: bolder;
+}
+
+
+
+.Contenedor{
+margin:auto;
+padding: 2%;
+border: 1px solid;
+height:auto;
+width: 60%;
+border: 1px solid;
+}
+
+.dielectrico3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.resultado_div{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;   
+}
+
+
+.resultado_dcc{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;   
+}
+
+.resultado_espacio{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;   
+}
+
+
+
+
+
+.diametro_conductor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+
+.Seleccion3{
+    margin-right: 9%; 
+     
+    }
+
+.input_dielectrico3{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    background-color:darkseagreen; 
+    font-weight: bolder;
+    width: 88%;
+    overflow: hidden;
+    margin-right: 10%;  
+    display: none;
+        
+    }
+
+
+.input_diamconductor{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 25px;
+    background-color:white; 
+    font-weight: bolder;
+    width:100%;
+    overflow: hidden;
+         
+    margin-bottom: 3%;  
+    }
+
+
+    .input_resultadobif{
+        border-radius: 5px 5px 0 0;
+        padding: 8px 25px;
+        background-color:plum;
+        font-weight: bolder;
+        width:10%;
+        overflow: hidden;
+        display: none;
+        margin-bottom: 3%;   
+    }
+    
+
+    .input_espacio{
+        border-radius: 5px 5px 0 0;
+        padding: 8px 25px;
+        background-color:plum;
+        font-weight: bolder;
+        width:15%;
+        overflow: hidden;
+        display: none;
+        margin-bottom: 3%;   
+    }
+    
+    
+    .input_distancia{
+        border-radius: 5px 5px 0 0;
+        padding: 8px 25px;
+        background-color:plum;
+        font-weight: bolder;
+        width:15%;
+        overflow: hidden;
+        display: none;
+        margin-bottom: 3%;   
+    }
+
+
+
+
+
+
+
+
+ .medida_diametro{
+        margin-left: 10%;   
+}
+    
+
+.imagen_bifiliar{
+        display:flex;
+        justify-content: center;
+    
+}
+
+
+.general_impedancia3{
+            margin-top: 4%;  
+            margin:auto;
+            padding: 2%;
+            border: 1px solid;
+            height:auto;
+            width: 60%;
+            border: 1px solid;
+            
+          
+}
+
+.impedancia_dimensiones{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;   
+}
+
+
+.input_impedancia3{
+            border-radius: 5px 5px 0 0;
+            padding: 8px 30px;
+            background-color:white; 
+            font-weight: bolder;
+            overflow: hidden;
+            width: 100%;
+            margin-bottom: 7%;  
+        }
+
+
+ .diametros3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .general_diametrocentro{
+    margin-top: 4%;  
+    margin:auto;
+    padding: 2%;
+    border: 1px solid;
+    height:auto;
+    width: 60%;
+    border: 1px solid;
+    
+  
+}
+.input_dcc{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 30px;
+    background-color:white; 
+    font-weight: bolder;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 3%;  
+}
+.medida_dcc{
+    margin-left: 10%;
+}
+
+.calculo_diametrocc,.calculo_impedancia3,.retroceso{
+    display: flex;
+ 
+    height:auto;
+    justify-content: center;
+    
+   
+}
+
+.retroceso{
+ margin-left: 3%;
+}

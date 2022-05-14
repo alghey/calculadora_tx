@@ -1,0 +1,279 @@
+body{
+    font-family: Poppins;
+}
+
+
+select{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.diele{
+width:100%;
+}
+
+optgroup{
+cursor:pointer;
+width: 30%;
+    position:relative;
+    font-size: 15px;
+    color:black;
+    border:1px solid #ccc;
+}
+
+.select select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
+
+
+
+
+.Contenedor{
+margin:auto;
+text-align: center;
+height:auto;
+width: 60%;
+background-color:#252A34 ;
+padding: 50px;
+}
+
+
+.dielectrico{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.Espesor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Frecuencia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.impedancia_longitud{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.longitudes{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+
+
+.resultado_div{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+
+
+.resultado_ancho{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+
+.resultado_longitud{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+.Seleccion{
+margin-right: 9%;
+margin-bottom: 3%;
+}
+.medida_espesor{
+margin-left: 10%;
+}
+.medida_frecuencia{
+    margin-left: 10%;
+}
+
+.input_dielectrico{
+    overflow: hidden;
+    display: none;
+
+}
+.input_espesor{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    background-color:white;
+    font-weight: bolder;
+    width:100%;
+    overflow: hidden;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.input_frecuencia{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    background-color:white;
+    font-weight: bolder;
+    width:100%;
+    overflow: hidden;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.input_longitud,.input_alto,.input_ancho{
+    padding: 8px 30px;
+    font-weight: bolder;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+
+
+.input_resultadomicro{
+    padding: 8px 25px;
+    font-weight: bolder;
+    width:10%;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 3%;
+}
+
+
+
+.input_ancho2{
+    padding: 8px 25px;
+    font-weight: bolder;
+    width:15%;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 3%;
+}
+
+
+.input_largo{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 25px;
+    background-color:plum;
+    font-weight: bolder;
+    width:15%;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.atributos_medicion{
+
+margin-top: 2%;
+
+}
+.input_impedancia{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 30px;
+    background-color:white;
+    font-weight: bolder;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+
+
+
+.longitud{
+margin-left: 10%;
+
+}
+.Alto{
+    margin-left: 10%;
+
+}
+
+
+.calculo_dimension,.calculo_impedancia,.retroceso{
+    display: flex;
+
+    height:auto;
+    justify-content: center;
+
+
+}
+
+
+.retroceso{
+    margin-left: 3%;
+   }
+
+
+.general_impedancia{
+    margin:auto;
+    text-align: center;
+    height:auto;
+    width: 60%;
+    background-color:#252A34 ;
+    padding: 50px;
+
+
+}
+
+.general_dimensiones{
+    margin-top: 4%;
+    margin:auto;
+    padding: 2%;
+    border: 1px solid;
+    height:auto;
+    width: 60%;
+    border: 1px solid;
+
+
+}
+
+
+
+
+    .imagen_cinta{
+    display:flex;
+    justify-content: center;
+
+    }

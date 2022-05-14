@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/diseño.css">
+</header>
+
+<body class="Inicio">
+
+<div class="container overflow-hidden">
+  <div class="row gy-10">
+    <div class="col-12">
+      <br><br><center><b><h1>Calculadora de líneas de transmisión</h1></b></center>
+    </div>
+  </div>
+  <div class="row gy-8">
+      <br><br><h3 class="custom-sub"><center>Primero selecciona el tipo de línea de transmisión y después el cálculo a realizar</center></h3>
+  </div>
+  <div class="row gy-5">
+    <div class="col-6">
+      <div class="p-3">
+        <h3 class="custom-label">
+          Tipo de cálculo
+        </h3>
+        <select class="form-select" id="tipo_calculo" name="calculo" aria-label="Selecciona una opción">
+            <option value="1">Dimensiones fisicas</option>
+            <option value="2">Impedancias</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="p-3">
+        <h3 class="custom-label">
+          Tipo de línea de transmisión
+        </h3>
+        <select class="form-select" id="tipo_linea" name="Linea">
+            <option value="1">Microcinta</option>
+            <option value="2">Cable coaxial</option>
+            <option value="3">Línea bifilar o de alambres paralelos</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row gy-5">
+    <div class="col-12">
+      <div class="p-3">
+        <center>
+        <button type="button" class="btn btn-dark btn-md" id="reedireccionar">
+          Siguiente →
+        </button>
+      </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="js/cambio.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

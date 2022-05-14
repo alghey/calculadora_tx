@@ -1,0 +1,290 @@
+.titulo,.titulo2{
+    
+    margin:auto;
+    background-color:lightsteelblue;
+    opacity: 80%;
+    text-align: center;
+    border: 1px solid;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 60%;
+    height:auto;
+}
+
+
+button{
+
+border: none;
+background-color:lightgreen;
+padding: 15px 20px;
+font-weight:bold; 
+}
+
+
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+
+
+select{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    overflow: hidden;
+    background-color: #fff;   
+}
+
+
+.diele2{
+width:100%;
+}
+
+
+optgroup{
+cursor:pointer;   
+width: 30%;
+    position:relative;
+    font-size: 15px;
+    color:black;
+    border:1px solid #ccc;
+}
+
+
+.select select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+}
+
+
+h4{
+color:orange;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h2{
+color:purple;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: none;
+}
+
+
+h1{
+   color:darkviolet;
+   font-weight: bolder;
+}
+
+
+
+.Contenedor{
+margin:auto;
+padding: 2%;
+border: 1px solid;
+height:auto;
+width: 60%;
+border: 1px solid;
+}
+
+
+.dielectrico2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.diametros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.impedancia_dimensiones{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;   
+}
+
+.resultado_div{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;   
+}
+
+.resultado_diame{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;   
+}
+
+.resultado_diami{
+    display: flex;
+    flex-direction:column;
+    margin-top: 3%;
+    flex-wrap: wrap;   
+}
+
+
+.Seleccion2{
+margin-right: 9%; 
+ 
+}
+
+.frecuencia{
+    margin-left: 10%;
+}
+
+.Diametro_interior{
+    margin-left: 10%;
+}
+
+
+.input_dielectrico2{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 15px;
+    background-color:darkseagreen; 
+    font-weight: bolder;
+    width: 88%;
+    overflow: hidden;
+    margin-right: 10%;  
+    display: none;
+    
+}
+
+
+.input_resultadocoax{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 25px;
+    background-color:plum;
+    font-weight: bolder;
+    width:10%;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 3%;   
+}
+
+.input_diame{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 25px;
+    background-color:plum;
+    font-weight: bolder;
+    width:20%;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 3%;   
+}
+
+
+.input_diami{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 25px;
+    background-color:plum;
+    font-weight: bolder;
+    width:20%;
+    overflow: hidden;
+    display: none;
+    margin-bottom: 3%;   
+}
+
+
+
+
+.input_frecuencia2,.input_di,.input_de{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 25px;
+    background-color:white; 
+    font-weight: bolder;
+    width:100%;
+    overflow: hidden;
+     
+    margin-bottom: 3%;  
+}
+
+.atributos_medicion{
+
+margin-top: 2%;
+
+}
+.input_impedancia2{
+    border-radius: 5px 5px 0 0;
+    padding: 8px 30px;
+    background-color:white; 
+    font-weight: bolder;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 3%;  
+}
+
+
+
+
+
+
+.calculo_diametros,.calculo_impedancia2,.retroceso{
+    display: flex;
+     
+    height:auto;
+    justify-content: center;
+    
+   
+}
+
+.retroceso{
+    margin-left: 3%;
+   }
+
+.general_impedancia2{
+    margin-top: 4%;  
+    margin:auto;
+    padding: 2%;
+    border: 1px solid;
+    height:auto;
+    width: 60%;
+    border: 1px solid;
+    
+  
+}
+
+.general_diametros{
+    margin-top: 4%;  
+    margin:auto;
+    padding: 2%;
+    border: 1px solid;
+    height:auto;
+    width: 60%;
+    border: 1px solid;
+    
+  
+}
+
+.tipo_medida2{
+    margin-top: 2%;
+}
+
+
+
+
+
+    .imagen_coaxial{
+    display:flex;
+    justify-content: center;
+
+    }
